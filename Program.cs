@@ -27,7 +27,7 @@ namespace CalculatorApp
                     case 1:
                         {
                             Random r = new Random();
-                            int winner = r.Next(0, 10);
+                            int winner = r.Next(0, 100);
                             bool win = false;
                             do
                             {
